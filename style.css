@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #282a35;
+}
+.divcontainer {
+    /* min-width: 1000px; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .divcontainer > div{
+   flex: 0 1 6.25%;
+   height: 25px;
+   border: 1px solid red;
+  }
