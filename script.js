@@ -44,3 +44,7 @@ function changeGridSize(e)
     else
     makegrid(x);
 }
+const reset = document.querySelector('#reset_button');
+reset.addEventListener('click',function(){
+    makegrid(16);
+})
